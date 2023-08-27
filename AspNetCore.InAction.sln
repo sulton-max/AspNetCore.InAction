@@ -4,6 +4,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N8 Dependency Injection", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.DependencyInjection", "AspNetCore.DependencyInjection\AspNetCore.DependencyInjection.csproj", "{8D4320DF-B59D-4906-8FF4-0E94413A4D73}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N9 Registering Services", "N9 Registering Services", "{CDF6BC78-D03F-4CFF-8ED4-A29C1870D096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.RegisteringServices", "AspNetCore.RegisteringServices\AspNetCore.RegisteringServices.csproj", "{54777A70-C340-4901-AA89-13447909BB84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,11 +15,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8D4320DF-B59D-4906-8FF4-0E94413A4D73} = {05BFD938-3192-4545-9517-3795899280B0}
+		{54777A70-C340-4901-AA89-13447909BB84} = {CDF6BC78-D03F-4CFF-8ED4-A29C1870D096}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8D4320DF-B59D-4906-8FF4-0E94413A4D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8D4320DF-B59D-4906-8FF4-0E94413A4D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D4320DF-B59D-4906-8FF4-0E94413A4D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D4320DF-B59D-4906-8FF4-0E94413A4D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54777A70-C340-4901-AA89-13447909BB84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54777A70-C340-4901-AA89-13447909BB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54777A70-C340-4901-AA89-13447909BB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54777A70-C340-4901-AA89-13447909BB84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

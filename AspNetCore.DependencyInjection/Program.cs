@@ -14,7 +14,7 @@ var smtpServerSettings = new SmtpServerSettings
 {
     Host = "smtp.gmail.com",
     Port = 587,
-    EmailAddress = "test@gmai.com",
+    EmailAddress = "test@gmail.com",
     Password = "testpass"
 };
 
@@ -31,6 +31,7 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.MapPost("/account", async (User user, IAccountService accountService) => Results.Ok(await accountService.RegisterUser(user)));
+app.MapPost("/account",
+    async (User user, IAccountService accountService) => Results.Ok(await accountService.RegisterUser(user)));
 
 app.Run();
