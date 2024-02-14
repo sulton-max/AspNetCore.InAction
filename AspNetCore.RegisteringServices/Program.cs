@@ -18,14 +18,20 @@ var smtpServerSettings = new SmtpServerSettings
     Password = "testpass"
 };
 
-builder.Services.AddSingleton(emailSenderSettings).AddSingleton(smtpServerSettings);
+// Register settings object instances
+builder.Services
+    .AddSingleton(emailSenderSettings)
+    .AddSingleton(smtpServerSettings);
 
+// Registering multiple services
 builder.Services
     .AddScoped<INotificationsService, EmailNotificationsService>()
     .AddScoped<INotificationsService, SmsNotificationService>()
     .AddScoped<INotificationsService, FacebookNotificationService>();
 
-builder.Services.AddScoped<IAccountService, AccountService>();
+// Registering scoped services
+builder.Services
+    .AddScoped<IAccountService, AccountService>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
