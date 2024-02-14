@@ -8,6 +8,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N9 Registering Services", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.RegisteringServices", "AspNetCore.RegisteringServices\AspNetCore.RegisteringServices.csproj", "{54777A70-C340-4901-AA89-13447909BB84}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N10 Configuration", "N10 Configuration", "{1015501C-19B2-4D5F-9F3F-66AA7537A637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Configuration", "AspNetCore.Configuration\AspNetCore.Configuration.csproj", "{283C83B5-5B73-43D5-A262-A363A8C216AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N4 Middleware", "N4 Middleware", "{FDD6FD84-8EBC-4619-B1FC-83269124E109}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,6 +22,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8D4320DF-B59D-4906-8FF4-0E94413A4D73} = {05BFD938-3192-4545-9517-3795899280B0}
 		{54777A70-C340-4901-AA89-13447909BB84} = {CDF6BC78-D03F-4CFF-8ED4-A29C1870D096}
+		{283C83B5-5B73-43D5-A262-A363A8C216AA} = {1015501C-19B2-4D5F-9F3F-66AA7537A637}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8D4320DF-B59D-4906-8FF4-0E94413A4D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -26,5 +33,9 @@ Global
 		{54777A70-C340-4901-AA89-13447909BB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54777A70-C340-4901-AA89-13447909BB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54777A70-C340-4901-AA89-13447909BB84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{283C83B5-5B73-43D5-A262-A363A8C216AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{283C83B5-5B73-43D5-A262-A363A8C216AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{283C83B5-5B73-43D5-A262-A363A8C216AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{283C83B5-5B73-43D5-A262-A363A8C216AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
